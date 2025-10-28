@@ -1,4 +1,4 @@
-#' select_ribo
+#' translate
 #' Select ribosome codons and makes them into AA
 #'
 #' This function selects specific codons from the `ribo` vector and
@@ -13,7 +13,7 @@
 #' codons <- c(1, 2, 4)
 #' select_ribo(codons)
 #' # Returns: ""
-select_ribo <- function(codons){
+translate <- function(codons){
   select_ribo2 <- paste0(ribo[codons], collapse = "")
   return(select_ribo2)
 }
