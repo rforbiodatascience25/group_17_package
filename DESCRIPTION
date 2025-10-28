@@ -8,6 +8,9 @@ Authors@R: c(
     person(given = "Jonas", family = "Rafn", role = "aut", email = "s235359@dtu.dk"),
     person(given = "Casper", family = "Tietgen", role = "aut", email = "s235404@dtu.dk"))
 Description: Simulates the central dogma of molecular biology, modeling transcription and translation processes to illustrate gene expression dynamics.
-License:MIT + file LICENSE
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
